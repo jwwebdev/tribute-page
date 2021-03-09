@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ecc5ab;
+    
+}   
+
+#mainheader{
+    background-color: #175177;
+    padding: 1rem;
+    color: white;
+}
+
+#mainnav{
+    background-color: #175177;
+    color: white;
+    padding-bottom: 1em;
+    
+}
+
+#mainnav li{
+    display: inline;
+    padding: 1rem;    
+    
+}
+
+#showcase{
+    margin: 1em; 
+}
+
+#showcase h2{
+    margin: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: #175177;
+    
+}
+
+#timeline h3{
+    background-color: #175177;
+    padding: 1rem;
+    color: white;
+}
+
+#timeline .container{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    margin: 0;
+    border-bottom: 1px solid #175177;    
+}
+
+.year{
+    border-left: 1px solid #175177;
+    border-top: 1px solid #175177;
+    padding: 0.5rem;
+    border-right: 1px solid #175177;
+}
+       
+
+.event{
+    border-right: 1px solid #175177;
+    border-top: 1px solid #175177;
+    padding: 0.5rem;
+}
+
+#quotes .container{
+    display: flex;
+    flex-direction: column;    
+    margin-top: 1rem;
+    
+    
+}
+
+#quotes h3{    
+    background-color: #175177;
+    padding: 1rem; 
+    color: white;   
+    
+}   
+
+.flexquote{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #175177;   
+}
+
+#gallery .container{
+    justify-content: center;
+    margin-top: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+#gallery h3{
+    background-color: #175177;
+    color: white;
+    padding: 1rem;
+}
+
+#gallery .galleryimg{    
+    margin: 1rem;   
+}
+
+#gallery img{
+    border-top: 2px solid #175177;
+    border-left: 2px solid #175177;
+    border-right: 2px solid #175177; 
+  
+}
+
+#gallery p{
+    border: 2px solid #175177; ;
+}
+
+#footer .container{
+    margin: 1rem;
+}   
+
+#footer h3{
+    background: #175177;
+    color: white;
+    padding: 1rem;
+}
+
+@media (min-width: 1400px){
+    #timeline h3{
+        background-color: #175177;
+        padding: 1rem;
+        color: white;
+    }
+    
+    #timeline .container{
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+        margin: 0;
+        border-bottom: 1px solid #175177;    
+    }
+    
+
+    #quotes .container{
+    display: flex;
+    flex-direction: column;    
+    margin-top: 1rem;    
+    }
+
+    #quotes h3{    
+    background-color: #175177;
+    padding: 1rem; 
+    color: white;   
+    }   
+
+    .flexquote{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #175177;
+    }
+}
