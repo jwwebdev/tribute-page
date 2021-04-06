@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:ital,wght@1,100&display=swap');
+
+body{
+    background-color: #2a9d8f;
+    color: black;
+}
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: #f4a261; 
+}
+
+blockquote p {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 1.7em;
+    color: #f4a261; 
+}
+
+figcaption{
+    font-weight: 700;
+}
+
+#timeline-quotes{
+    font-family:'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+tbody tr:hover{
+    background-color: #f4a261; 
+    transition: ease;
+    transition-duration: 100ms;    
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.table-bordered{
+    border-color: #264653;
+}
+
 table .year{
     width: 10%;
 }
+
+thead{
+    font-size: 1.5em;
+    color: #f4a261;
+}
+
+tfoot{
+    font-size: 1.3em;
+}
+
+figure{
+    width: 40%;
+}
+
+#gallery{
+    color: #f4a261;
+}
+
