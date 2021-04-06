@@ -1,99 +1,196 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="">
-	    <meta name="keywords" content="">
-  	    <meta name="author" content="Jorge Washington">
-        <title>Van Gogh | Tribute</title>
-        <link rel="stylesheet" href="./style/styles.css">
-    </head>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="widtd=device-widtd, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/styles.css">
+  <title>Van Gogh Tribute Page</title>
+</head>
+
+<body>
+  <main class="text-center container" >
+    <header id="Header" class="bg-dark">
+      <h1 class="text-primary" class="bg-dark">Vincent Van Gogh</h1>
+    </header>
+    <div id="imgdiv" class="d-flex justify-content-center my-5">
+      <img src="/images/portrait2.png" alt="Vahn Gogh self portrait">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p>One may have a blazing hearth in one's soul and yet no one ever came to sit by it. Passers-by see only a wisp of smoke from the chimney and continue on their way</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Vincent Van Gogh in <cite title="www.vincentvangogh.org">www.vincentvangogh.org</cite>
+        </figcaption>
+      </figure>
+    </div>
     
-    <body>
-        <header id="mainheader">
-            <div class="container">
-                <h1>Vincent Van Gogh</h1>
+    <section>
+      <div id="timeline-quotes" class="container">
+        <div class="row">
+            <div class="col-lg">
+                <table id=timeline class="table table-hover table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th colspan="2">Time line</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="year">1853</td>
+                            <td>Vincent Van Gogh is born in Groot-Zundert, Netherlands</td>
+                        </tr>
+                        <tr>
+                            <td>1864</td>
+                            <td>Sent to boarding school in Zevenbergen</td>
+                        </tr>
+                        <tr>
+                            <td>1869</td>
+                            <td>Van Gogh is employed by the Hague gallery</td>
+                        </tr>
+                        <tr>
+                            <td>1876</td>
+                            <td>Van Gogh begins devoting his life to the evangelization of the poor in the town of Borinage, Belgium</td>
+                        </tr>
+                        <tr>
+                            <td>1880</td>
+                            <td>Van Gogh relocates to Brussels and begins learning the skills needed to become an artist</td>
+                        </tr>
+                        <tr>
+                            <td>1885</td>
+                            <td>Completion of The Potato Eaters</td>
+                        </tr>
+                        <tr>
+                            <td>1886</td>
+                            <td>Van Gogh moves to Paris. Discovers Impressionists and Post Impressionists</td>
+                        </tr>
+                        <tr>
+                            <td>1888</td>
+                            <td>Van Gogh moves to Arles to create a school of art</td>
+                        </tr>
+                        <tr>
+                            <td>1888</td>
+                            <td>Van Gogh paints the famous sunflower pieces and begins suffering from mental problems</td>
+                        </tr>
+                        <tr>
+                            <td>1888</td>
+                            <td>Van Gogh cuts off a portion of his ear and commits himself to a mental asylum in Saint Rémy</td>
+                        </tr>
+                        <tr>
+                          <td>1889</td>
+                          <td>Completion of Starry Night</td>
+                        </tr>
+                        <tr>
+                          <td>1890</td>
+                          <td>Vincent Van Gogh dies of a self-inflicted gunshot. He was buried on July 30 at Auvers-sur-Oise</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="2">
+                          <a href="https://www.vangoghgallery.com/misc/timeline.html" target="blank"> Read more about Van Gogh's time line</a>
+                        </td>
+                      </tr>
+                    </tfoot>
+                </table>
             </div>
-        </header>
-             
-                
-        <section id="showcase">
-            <div class="container">
-                <img src="/images/portrait2.png">
-                <h2>Great things are not done by impulse, but by a series of small things brought together</h2>
+            <div class="col-lg">
+                <table id="quotes" class="table table-hover table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Quotes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I am still far from being what I want to be, but with God's help I shall succeed</td>
+                        </tr>
+                        <tr>
+                            <td>I don't know anything with certainty, but seeing the stars makes me dream.</td>
+                        </tr>
+                        <tr>
+                            <td>There is nothing more truly artistic than to love people.</td>
+                        </tr>
+                        <tr>
+                            <td>If you hear a voice within you say "you cannot paint," then by all means paint and that voice will be silenced. ”</td>
+                        </tr>
+                        <tr>
+                            <td>The beginning is perhaps more difficult than anything else, but keep heart, it will turn out all right</td>
+                        </tr>
+                        <tr>
+                            <td>I always think that the best way to know God is to love many things. ”</td>
+                        </tr>
+                        <tr>
+                            <td>It is looking at things for a long time that ripens you and gives you a deeper meaning</td>
+                        </tr>
+                        <tr>
+                            <td>I put my heart & soul into my work, & have lost my mind in the process</td>
+                        </tr>
+                        <tr>
+                            <td>I experience a period of frightening clarity in those moments when nature is so beautiful. I am no longer sure of myself, and the paintings appear as in a dream.</td>
+                        </tr>
+                        <tr>
+                            <td>Great things are not done by impulse, but by a series of small things brought together</td>
+                        </tr>
+                        <tr>
+                          <td>I often think that the night is more alive and more richly colored than the day</td>
+                        </tr>
+                        <tr>
+                          <td>Whoever loves much, performs much, and can accomplish much, and what is done in love is done well.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td><a href="https://www.vincentvangogh.org/quotes.jsp" target="blank">Read More Van Gogh's Quotes</a></td>
+                      </tr>
+                    </tfoot>
+                </table>
             </div>
-        </section>
-
-        
-        <section class="flexcontainer">
-            <div class="tlcontainer">
-                <h3>Time line</h3>                
-                <div class="year">1853</div>
-                <div class="event">Vincent Van Gogh is born in Groot-Zundert, Netherlands.</div>
-                <div class="year">1864</div>
-                <div class="event">Sent to boarding school in Zevenbergen.</div>
-                <div class="year">1876</div>
-                <div class="event">Van Gogh begins devoting his life to the evangelization of the poor in the town of Borinage, Belgium.</div>
-                <div class="year">1880</div>
-                <div class="event">Van Gogh relocates to Brussels and begins learning the skills needed to become an artist.</div>
-                <div class="year">1885</div>
-                <div class="event">Completion of The Potato Eaters.</div>
-                <div class="year">1886</div>
-                <div class="event">Van Gogh moves to Paris. Discovers Impressionists and Post Impressionists.</div>
-                <div class="year">1888</div>
-                <div class="event">Van Gogh paints the famous sunflower pieces and begins suffering from mental problems.</div>
-                <div class="year">1888</div>
-                <div class="event">Van Gogh cuts off a portion of his ear and commits himself to a mental asylum in Saint Rémy.</div>
-                <div class="year">1889</div>
-                <div class="event">Completion of Starry Night.</div>
-                <div class="year">1890</div>
-                <div class="event">Leaves the asylum to begin care in Auvers-sur-Oise under Dr. Paul Gachet, who was recommended by Camille Pissarro.</div>
-                <div class="year">1890</div>
-                <div class="event">Vincent Van Gogh dies of a self-inflicted gunshot. He was buried on July 30 at Auvers-sur-Oise.</div>              
-            </div>
-
-            <div class="quocontainer">
-                <h3>Quotes</h3>
-                <div class="flexquote">“I dream my painting and I paint my dream.”</div>
-                <div class="flexquote">“There is nothing more truly artistic than to love people.”</div>
-                <div class="flexquote">“The sadness will last forever.”</div>
-                <div class="flexquote">“Art is to console those who are broken by life.”</div>
-                <div class="flexquote">“There is peace even in the storm”</div>
-                <div class="flexquote">“Exaggerate the essential, leave the obvious vague.”</div>
-                <div class="flexquote">“Someday death will take us to another star.”</div>
-                <div class="flexquote">“The only time I feel alive is when I'm painting.”</div>
-                <div class="flexquote">“I will not live without love.”</div>
-                <div class="flexquote">“What is done in love is done well.”</div>           
-            </div>
-
-        </section>
-        
-        
-
-        <section id="gallery">
-            <h3>Gallery</h3>
-            <div class="container">                
-                <div class="galleryimg">
-                    <img src="/images/potatoeatersresize.jpg"> 
-                        <p>The Potato Eaters, completed in 1885</p>
-                </div>
-                <div class="galleryimg">
-                    <img src="images/starry364.jpg">
-                        <p>Vincent van Gogh painted Starry Night in 1889 during his stay at the asylum of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence.</p>
-                </div>  
-                <div class="galleryimg">
-                    <img src="images/sunflowerresize.jpg">
-                    <p>Van Gogh began painting sunflowers after he left Holland for France in pursuit of creating an artistic community..</p>
-                </div>
-            <div>
-        </section>
-
-        <div id="readmore">
-            <button>Read More</button>
         </div>
-        <!--
-        <footer id="footer">
-            <div class="container"></div>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, numquam.</h3>
-        </footer>
-        -->
+      </div>    
+    </section>
+      
+    
+
+    <!--
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/images/Starry_Night_Over_the_Rhone.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/potato_full.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/sunflower.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>  
+  </main>
+  -->
+    <footer id="footer">
+      Lorem ipsum dolor sit amet.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
